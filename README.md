@@ -15,11 +15,8 @@
 
 
 ##### ScreenShots
-![](screenshots/Screenshot_1_FIREFLY.jpg)
-![](screenshots/Screenshot_2_FIREFLY.jpg)
-![](screenshots/Screenshot_3_FIREFLY.jpg)
-![](screenshots/Screenshot_4_FIREFLY.jpg)
-![](screenshots/Screenshot_5_FIREFLY.jpg)
-![](screenshots/Screenshot_6_FIREFLY.jpg)
+<img src="screenshots/Screenshot_1_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_2_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_3_FIREFLY.jpg" alt="drawing" width="200"/>
+
+<img src="screenshots/Screenshot_4_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_5_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_6_FIREFLY.jpg" alt="drawing" width="200"/>
 
 
