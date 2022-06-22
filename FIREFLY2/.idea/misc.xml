@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable-v24/album_back_ground_defult_small.xml" value="0.1855" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable-v24/item_drawables_main_activity_bottom_bar.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/add.xml" value="0.223" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/add_dialog_background.xml" value="0.1015" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/album_back_ground_default_big.xml" value="0.1395" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/album_back_ground_defult.xml" value="0.2445" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/album_background_default.xml" value="0.2445" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/app_icon_background.xml" value="0.2445" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/bottom_button_drawable.xml" value="0.136" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/bottom_image_background.xml" value="0.159" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1115" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.133" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/item_drawables_main_menu_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/list_background.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/menu_background.xml" value="0.122" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/more.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/more_vertical.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/music_icon.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/play_screen_activity_button_background.xml" value="0.1805" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/play_screen_play_button_background.xml" value="0.1025" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/play_screen_play_button_circle.xml" value="0.2595" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/scrollbar.xml" value="0.1115" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/tab_layout_out.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/tab_layout_outline.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/tab_layout_seelected_tab.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/tab_layout_selected.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/drawable/tab_layout_selected_tab.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_add_to_list.xml" value="0.2" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_add_to_list_all_tracks.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_add_to_list_track_select.xml" value="0.33695652173913043" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_album.xml" value="0.2" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_list.xml" value="0.264" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_list_track.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_play_screen.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/activity_search.xml" value="0.14173228346456693" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/add_dialog_layout.xml" value="0.2" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/add_to_list_row.xml" value="0.264" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/add_to_list_track_select_track_row.xml" value="0.536" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/album_activity_track_row.xml" value="0.4" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/album_layout.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/bottom_bar.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/delete_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/delete_list_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/fragment_list.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/fragment_main_album.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/fragment_main_track_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/list_row.xml" value="0.3819444444444444" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/loading_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/main_track_row.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/layout/tab_layout_custom.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/menu/list_activity_options_menu.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/menu/track_main_options_menu.xml" value="0.1" />
+        <entry key="..\:/Users/omers/AndroidStudioProjects/FIREFLY2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.133" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

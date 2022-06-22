@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BasePopupMenu" parent="Widget.AppCompat.PopupMenu">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/foreground_1</item>
+    <item name="android:textSize">15dp</item>
+    <item name="android:itemBackground">@color/background_dark</item>
+</style>
+ <style name="dialogAnimation">
+     <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+     <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+ </style>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_1"
+    tools:context=".AlbumActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <ImageView
+            android:id="@+id/albumActivityBackButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/back_ios"
+            app:tint="@color/foreground_1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/albumActivityAlbumArt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/album_back_ground_defult"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6" />
+
+    <TextView
+        android:id="@+id/AlbumActivityAlbumName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textColor="@color/primary_text_color"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/albumActivityAlbumArt"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6" />
+
+    <TextView
+        android:id="@+id/albumActivityArtistName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="15dp"
+        android:textColor="@color/secondary_text_color"
+        app:layout_constraintEnd_toEndOf="@+id/AlbumActivityAlbumName"
+        app:layout_constraintStart_toStartOf="@+id/AlbumActivityAlbumName"
+        app:layout_constraintTop_toBottomOf="@+id/AlbumActivityAlbumName" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/albumActivityRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/list_background"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/albumActivityAlbumArt" />
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="38dp">
+        <View
+            android:id="@+id/viewUp"
+            android:layout_width="match_parent"
+            android:background="@color/background_2"
+            android:layout_gravity="top"
+            android:layout_height="35dp" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_gravity="bottom"
+            android:layout_height="35dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/albumActivityBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/item_drawables_main_activity_bottom_bar">
+
+            <ImageButton
+                android:id="@+id/albumActivityNextButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="16dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/bottom_button_drawable"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/next"
+                app:tint="@color/foreground_1" />
+
+            <ImageButton
+                android:id="@+id/albumActivityPlayButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="11dp"
+                android:background="@drawable/bottom_button_drawable"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/albumActivityNextButton"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@+id/albumActivityNextButton"
+
+                app:layout_constraintTop_toTopOf="@+id/albumActivityNextButton"
+                app:srcCompat="@drawable/play"
+                app:tint="@color/foreground_1" />
+
+            <ImageButton
+                android:id="@+id/albumActivityPrevButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="11dp"
+                android:background="@drawable/bottom_button_drawable"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/albumActivityPlayButton"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@+id/albumActivityPlayButton"
+                app:layout_constraintTop_toTopOf="@+id/albumActivityPlayButton"
+                app:srcCompat="@drawable/previous"
+                app:tint="@color/foreground_1" />
+
+            <ImageView
+                android:id="@+id/albumActivityBottomImage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/bottom_image_background"
+                android:clickable="false"
+                android:clipToOutline="true"
+                android:src="@drawable/music_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/albumActivityBottomTrackName"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="TrackName"
+                android:textColor="@color/primary_text_color"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                app:layout_constraintBottom_toTopOf="@id/albumActivityBottomArtistName"
+                app:layout_constraintEnd_toStartOf="@+id/albumActivityPrevButton"
+                app:layout_constraintStart_toEndOf="@+id/albumActivityBottomImage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/albumActivityBottomArtistName"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="5dp"
+                android:text="ArtistName"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/secondary_text_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/albumActivityPrevButton"
+                app:layout_constraintStart_toEndOf="@+id/albumActivityBottomImage"
+                app:layout_constraintTop_toBottomOf="@+id/albumActivityBottomTrackName" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

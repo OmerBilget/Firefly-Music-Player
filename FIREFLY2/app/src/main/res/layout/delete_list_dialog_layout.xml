@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/deleteListDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="The list will be removed"
+        android:textSize="20dp"
+        android:textColor="@color/foreground_1"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/foreground_1"
+        app:layout_constraintBottom_toBottomOf="@+id/deleteListDialogTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteListDialogTitle" />
+
+    <TextView
+        android:id="@+id/deleteListDialogCancel"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="CANCEL"
+        android:textColor="@color/foreground_1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/deleteListDialogOkButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteListDialogTitle" />
+
+    <TextView
+        android:id="@+id/deleteListDialogOkButton"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:text="OK"
+        android:textSize="20dp"
+        android:textColor="@color/foreground_1"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider"
+        app:layout_constraintStart_toEndOf="@+id/deleteListDialogCancel"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+
+        android:background="@color/foreground_1"
+        app:layout_constraintBottom_toBottomOf="@+id/deleteListDialogCancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteListDialogTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
