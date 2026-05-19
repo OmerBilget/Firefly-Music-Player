@@ -23,31 +23,6 @@ Firefly is a local music player designed to provide a smooth and reliable listen
 
 ---
 
-## Technical Highlights
-
-- Implemented MediaSession API for system-level playback control  
-- Managed background services for uninterrupted audio playback  
-- Handled Android lifecycle events for stable media behavior  
-- Designed responsive UI with efficient state management  
-
----
-
-## App Capabilities
-
-- Play audio in background and lock screen  
-- Control playback via notification panel  
-- Organize music with playlists and favorites  
-- Navigate music library efficiently  
-
----
-
-## Tech Stack
-
-- Java / Kotlin  
-- Android SDK  
-- MediaSession API  
-- RecyclerView and standard UI components  
-
 
 ##### ScreenShots
 <img src="screenshots/Screenshot_1_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_2_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_3_FIREFLY.jpg" alt="drawing" width="200"/>  <img src="screenshots/Screenshot_4_FIREFLY.jpg" alt="drawing" width="200"/>
